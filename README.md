@@ -2,19 +2,19 @@
 For people don't want to use conda about running Stable Diffusion WebUI on macOS, this might be for you.
 
 
-# Name（リポジトリ/プロジェクト/OSSなどの名前）
+# -Stable-Diffusion-webui-mps_venv-version
 
-分かりやすくてカッコイイ名前をつける（今回は"hoge"という名前をつける）
+For people don't want to use conda about running Stable Diffusion WebUI on macOS, this might be for you.
 
-"hoge"が何かを簡潔に紹介する
-
-# DEMO
+# DEMO Pics
 
 "hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
 
 # Features
 
 "hoge"のセールスポイントや差別化などを説明する
+
+Automatic1111's Stable Diffusion WebUI (https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 
 # Requirement
 
