@@ -92,9 +92,9 @@ Here are the major changes from the original one.
 
 * Change Pytorch version from 1.13.0.dev20220922 (Nightly) to 1.13.0 (stable)
 * To reduce RAM usage, I've added "--medvram" instead of "opt-split-attention-v1" in command line arguments. 
+* Some optimizations and bugfixes.
 
 In the end, it led iteration about 2x faster from original one.
-* Some optimizations and bugfixes.
 
 
 
@@ -102,7 +102,7 @@ Feel free to ask me when you have a issue or pull request. :9
 
 
 
-# Author
+# Author and Credits
 
 
 
