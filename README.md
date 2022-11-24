@@ -1,5 +1,5 @@
 
-# -Stable-Diffusion-webui-mps_venv-version
+# Stable-Diffusion-webui-mps_venv-version
 This script allows you to install and run Automatic1111's Stable Diffusion WebUI (https://github.com/AUTOMATIC1111/stable-diffusion-webui) with using "venv" on your macOS.
 So, you no need to install conda.
 
@@ -50,7 +50,7 @@ git clone https://github.com/SpinningSamurai/-Stable-Diffusion-webui-mps_venv-ve
 cd Stable-Diffusion-webui-mps_venv-version
 
 # Install requirements
-./webui.sh -i
+./webui.sh -if
 ```
 
 If you face some permissions error about webui.sh, try below.
@@ -68,10 +68,20 @@ After that, put your favorite model (.ckpt file) in right directly.
 DEMOの実行方法など、"hoge"の基本的な使い方を説明する
 
 ```zsh
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
+# Start WebUI
+./webui.sh -s
+
+# Install requirements
+./webui.sh -i
+
+# Clean up directory
+./webui.sh -c
+
+# Open source directory
+./webui.sh -o
 ```
+If you want to start WebUI with command line arguments, rewrite or add your favorates to line 226 in webui.sh
+
 
 # Note
 
