@@ -12,7 +12,7 @@ So, you no need to install [conda](https://docs.conda.io/en/latest/miniconda.htm
 
 * Installs and Runs Automatic1111's Stable Diffusion WebUI with using venv on your macOS 
 * MPS Support with Pytorch 1.13 Stable
-* All samplers will work when you choose --use-cpu all
+* All samplers will work when you add --use-cpu all in command line arguments
 * In the case of Apple M1 (MacBook Pro '13 2020) with using MPS, will produce 2.86s/it at fastest.
 * In the case of Apple M1 (MacBook Pro '13 2020) with using CPU, will produce 5.36s/it at fastest.
 
@@ -43,10 +43,10 @@ Other requirements (homebrew cmake protobuf rust python etc...) will be installe
 xcode-select --install
 
 # Download this repo.
-git clone https://github.com/SpinningSamurai/Stable-Diffusion-webui-mps_venv
+git clone https://github.com/SpinningSamurai/stable-diffusion-webui-mps_venv
 
 # Change directory
-cd Stable-Diffusion-webui-mps_venv
+cd stable-diffusion-webui-mps_venv
 
 # Install requirements
 ./webui.sh -i
@@ -78,19 +78,20 @@ After that, put your favorite model (.ckpt file) in right directly.
 # Open source directory
 ./webui.sh -o
 ```
-If you want to start WebUI with command line arguments, rewrite or add your favorates to line 226 in webui.sh
+If you want to start WebUI with command line arguments, rewrite or add your favorites to line 226 in webui.sh
 
 
 # Note
-> **Important**  
+> **Note**  
 > **I'm not original author of this script.** 
 
 I downloaded the original one from github but its author and the repo seem to have disappeared. 
 So I decided to upload my own modified one.
-Here are the changes from the original.
+Here are the major changes from the original one.
 
 * Change Pytorch version from 1.13.0.dev20220922 (Nightly) to 1.13.0 (stable)
 * To make iteration 2x faster, I've added "--medvram" instead of "opt-split-attention-v1" in command line arguments.
+* Some optimizations and bugfixes.
 
 注意点などがあれば書く
 
@@ -98,22 +99,17 @@ Feel free to ask me when you have a issue or pull request:9
 
 
 
-# Author but
+# Author
 
-> **Warning**  
-> 利用により発生した損害全てに対し、いかなる責任をも負えません。詳細はライセンスをご確認ください。
 
 作成情報を列挙する
 
-* 作成者
-* 所属
-* E-mail
+* [SpinningSamurai](https://github.com/SpinningSamurai)
+* A Original author of this script (I completely forgot your name sorry.)
+
 
 # License
-ライセンスを明示する
 
-"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
 
-社内向けなら社外秘であることを明示してる
+This repository is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
 
-"hoge" is Confidential.
