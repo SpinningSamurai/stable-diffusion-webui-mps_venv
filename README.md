@@ -1,7 +1,7 @@
 
 # Stable-Diffusion-webui-mps_venv
-This script allows you to install and run Automatic1111's Stable Diffusion WebUI (https://github.com/AUTOMATIC1111/stable-diffusion-webui) with using "venv" on your macOS.
-So, you no need to install conda.
+This script allows you to install and run [Automatic1111's Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) with using [venv](https://docs.python.org/3/library/venv.html) on your macOS.
+So, you no need to install [conda](https://docs.conda.io/en/latest/miniconda.html).
 
 # DEMO Pics
 
@@ -16,7 +16,7 @@ So, you no need to install conda.
 * In the case of Apple M1 (MacBook Pro '13 2020) with using MPS, will produce 2.86s/it at fastest.
 * In the case of Apple M1 (MacBook Pro '13 2020) with using CPU, will produce 5.36s/it at fastest.
 
-"hoge"のセールスポイントや差別化などを説明する
+
 # Tested hardware
 
 * MacBook Pro '13 2020
@@ -24,22 +24,19 @@ So, you no need to install conda.
 
 # System Requirement
 
-"hoge"を動かすのに必要なライブラリなどを列挙する
 
 * macOS 12.0 or later
 * Apple Silicon Macs
 
 # Requirement
 
-"hoge"を動かすのに必要なライブラリなどを列挙する
 
 * Xcode command line tools
 
-Other requirements (brew cmake protobuf rust python etc...) will be installed automatically while runnning the script.
+Other requirements (homebrew cmake protobuf rust python etc...) will be installed automatically while runnning the script.
 
 # Installation
 
-Requirementで列挙したライブラリなどのインストール方法を説明する
 
 ```zsh
 # Install Xcode command line tools.
@@ -67,7 +64,6 @@ After that, put your favorite model (.ckpt file) in right directly.
 
 # Usage
 
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
 
 ```zsh
 # Start WebUI
@@ -87,8 +83,10 @@ If you want to start WebUI with command line arguments, rewrite or add your favo
 
 # Note
 
-I'm not original author of this script. I downloaded the original one from github but its author and the repo seem to have disappeared. 
-So I decided to upload my own modified script.
+**I'm not original author of this script.** 
+
+I downloaded the original one from github but its author and the repo seem to have disappeared. 
+So I decided to upload my own modified one.
 Here are the changes from the original.
 
 * Change Pytorch version from 1.13.0.dev20220922 (Nightly) to 1.13.0 (stable)
@@ -96,9 +94,11 @@ Here are the changes from the original.
 
 注意点などがあれば書く
 
+Feel free to ask me when you have a issue or pull request:9
 
 
-# Author
+
+# Author but
 
 作成情報を列挙する
 
