@@ -86,7 +86,7 @@ If you want to start WebUI with command line arguments, rewrite or add your favo
 > **I'm not original author of this script.** 
 
 I downloaded the original one from github but its author and the repo seem to have disappeared. 
-So I decided to upload my own modified one.
+So I decided to upload my own modified one because he/she allowed redistribution in the script.
 Here are the major changes from the original one.
 
 * Change Pytorch version from 1.13.0.dev20220922 (Nightly) to 1.13.0 (stable)
