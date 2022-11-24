@@ -90,7 +90,7 @@ So I decided to upload my own modified one.
 Here are the major changes from the original one.
 
 * Change Pytorch version from 1.13.0.dev20220922 (Nightly) to 1.13.0 (stable)
-* To make iteration 2x faster, I've added "--medvram" instead of "opt-split-attention-v1" in command line arguments.
+* To reduce RAM usage, I've added "--medvram" instead of "opt-split-attention-v1" in command line arguments. In the end, it led iteration about 2x faster from original one.
 * Some optimizations and bugfixes.
 
 
@@ -102,7 +102,6 @@ Feel free to ask me when you have a issue or pull request. :9
 # Author
 
 
-作成情報を列挙する
 
 * [SpinningSamurai](https://github.com/SpinningSamurai)
 * A Original author of this script (I completely forgot your name sorry.)
