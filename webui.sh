@@ -223,7 +223,7 @@ function act_start() {
 
     python webui.py $ADDITIONAL_ARGS;
   else;
-    python webui.py --precision full --no-half --no-half-vae --deepdanbooru --medvram --use-cpu Interrogate GFPGAN CodeFormer;
+    python webui.py --precision full --no-half --no-half-vae --medvram --use-cpu Interrogate GFPGAN CodeFormer;
   fi;
 
   cd ..;
