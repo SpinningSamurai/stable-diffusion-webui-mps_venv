@@ -82,8 +82,8 @@ If you want to start WebUI with command line arguments, rewrite or add your favo
 
 
 # Note
-
-**I'm not original author of this script.** 
+> **Important**  
+> **I'm not original author of this script.** 
 
 I downloaded the original one from github but its author and the repo seem to have disappeared. 
 So I decided to upload my own modified one.
@@ -99,6 +99,9 @@ Feel free to ask me when you have a issue or pull request:9
 
 
 # Author but
+
+> **Warning**  
+> 利用により発生した損害全てに対し、いかなる責任をも負えません。詳細はライセンスをご確認ください。
 
 作成情報を列挙する
 
