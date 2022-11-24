@@ -7,18 +7,20 @@ So, you no need to install conda.
 
 "hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
 
+
 # Features
 
 * Installs and Runs Automatic1111's Stable Diffusion WebUI with using venv on your macOS 
 * MPS Support with Pytorch 1.13 Stable
-* All samplers works when you choose --use-cpu all
+* All samplers will work when you choose --use-cpu all
+* In the case of Apple M1 (MacBook Pro '13 2020) with using MPS, will produce 2.86s/it at fastest.
+* In the case of Apple M1 (MacBook Pro '13 2020) with using CPU, will produce 5.36s/it at fastest.
 
 "hoge"のセールスポイントや差別化などを説明する
+# Tested hardware
 
-Currently if you want to run Automatic1111's Stable Diffusion WebUI (https://github.com/AUTOMATIC1111/stable-diffusion-webui) on your macOS, you need to install miniconda or Anaconda for creating virtual environment, but without anaconda (or conda), python3.10 is already able to create that with "venv" command.
+* MacBook Pro '13 2020
 
-This script allows you to install and run Automatic1111's Stable Diffusion WebUI (https://github.com/AUTOMATIC1111/stable-diffusion-webui) using "venv" on your macOS.
-So, you no need to install conda.
 
 # System Requirement
 
@@ -50,7 +52,7 @@ git clone https://github.com/SpinningSamurai/-Stable-Diffusion-webui-mps_venv-ve
 cd Stable-Diffusion-webui-mps_venv-version
 
 # Install requirements
-./webui.sh -if
+./webui.sh -i
 ```
 
 If you face some permissions error about webui.sh, try below.
@@ -85,7 +87,16 @@ If you want to start WebUI with command line arguments, rewrite or add your favo
 
 # Note
 
+I'm not original author of this script. I downloaded the original one from github but its author and the repo seem to have disappeared. 
+So I decided to upload my own modified script.
+Here are the changes from the original.
+
+* Change Pytorch version from 1.13.0.dev20220922 (Nightly) to 1.13.0 (stable)
+* To make iteration 2x faster, I've added "--medvram" instead of "opt-split-attention-v1" in command line arguments.
+
 注意点などがあれば書く
+
+
 
 # Author
 
