@@ -95,7 +95,7 @@ Here are the major changes from the original one.
 
 
 
-Feel free to ask me when you have a issue or pull request:9
+Feel free to ask me when you have a issue or pull request. :9
 
 
 
