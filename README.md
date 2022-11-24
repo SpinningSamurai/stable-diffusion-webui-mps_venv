@@ -1,5 +1,5 @@
 
-# Stable-Diffusion-webui-mps_venv-version
+# Stable-Diffusion-webui-mps_venv
 This script allows you to install and run Automatic1111's Stable Diffusion WebUI (https://github.com/AUTOMATIC1111/stable-diffusion-webui) with using "venv" on your macOS.
 So, you no need to install conda.
 
@@ -46,10 +46,10 @@ Requirementで列挙したライブラリなどのインストール方法を説
 xcode-select --install
 
 # Download this repo.
-git clone https://github.com/SpinningSamurai/-Stable-Diffusion-webui-mps_venv-version
+git clone https://github.com/SpinningSamurai/Stable-Diffusion-webui-mps_venv
 
 # Change directory
-cd Stable-Diffusion-webui-mps_venv-version
+cd Stable-Diffusion-webui-mps_venv
 
 # Install requirements
 ./webui.sh -i
