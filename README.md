@@ -93,7 +93,7 @@ Here are the major changes from the original one.
 * To make iteration 2x faster, I've added "--medvram" instead of "opt-split-attention-v1" in command line arguments.
 * Some optimizations and bugfixes.
 
-注意点などがあれば書く
+
 
 Feel free to ask me when you have a issue or pull request:9
 
