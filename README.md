@@ -105,7 +105,7 @@ In the end, it led iteration about 2x faster from original one.
 Feel free to ask me when you have a issue or pull request. :9
 
 # Known issues
-* It may require to install "torchsde". Please manually add "torchsde" to the requirements.txt in created directly.
+* It may require to install "torchsde". Please manually add "torchsde" to the requirements.txt in created directly. then reinstall requirements and rerun WebUI
 
 # Author and Credits
 
