@@ -99,7 +99,7 @@ Here are the major changes from the original one.
 * Some optimizations and bugfixes.
 
 
-In the end, it led iteration about 2x faster from original one.
+In the end, it led iteration about 2x faster than original one.
 
 
 
