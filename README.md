@@ -94,6 +94,7 @@ Here are the major changes from the original one.
 * To reduce RAM usage, I've added "--medvram" instead of "opt-split-attention-v1" in command line arguments. 
 * Some optimizations and bugfixes.
 
+
 In the end, it led iteration about 2x faster from original one.
 
 
