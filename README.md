@@ -101,6 +101,10 @@ In the end, it led iteration about 2x faster from original one.
 
 Feel free to ask me when you have a issue or pull request. :9
 
+# Known issues
+* Not all samplers works with using MPS. Currently Eular and DPM2 will work fine.
+* But if you add "--use-cpu all" in command line arguments, all samplers may work fine.
+* New samplers like "DPM++ 2M Karras" don't appear in WebUI.
 
 
 # Author and Credits
