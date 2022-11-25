@@ -1,5 +1,5 @@
 
-# Stable-Diffusion-webui-mps_venv
+# stable-diffusion-webui-mps_venv
 This script allows you to install and run [Automatic1111's Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) with using [venv](https://docs.python.org/3/library/venv.html) on your macOS.
 So, you no need to install [conda](https://docs.conda.io/en/latest/miniconda.html).
 
@@ -12,7 +12,7 @@ So, you no need to install [conda](https://docs.conda.io/en/latest/miniconda.htm
 # Features
 
 * Installs and Runs Automatic1111's Stable Diffusion WebUI with using venv on your macOS 
-* MPS Support with Pytorch 1.13 Stable
+* MPS Support with Pytorch 1.13 stable
 * All samplers will work.
 
 
