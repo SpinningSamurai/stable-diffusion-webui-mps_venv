@@ -12,14 +12,17 @@ So, you no need to install [conda](https://docs.conda.io/en/latest/miniconda.htm
 
 * Installs and Runs Automatic1111's Stable Diffusion WebUI with using venv on your macOS 
 * MPS Support with Pytorch 1.13 Stable
-* All samplers will work when you add --use-cpu all in command line arguments
-* In the case of Apple M1 (MacBook Pro '13 2020) with using MPS, will produce 2.86s/it at fastest.
-* In the case of Apple M1 (MacBook Pro '13 2020) with using CPU, will produce 5.36s/it at fastest.
+* All samplers will work.
+
 
 
 # Tested hardware
 
 * MacBook Pro '13 2020
+
+# How's the speed?
+* In the case of Apple M1 (MacBook Pro '13 2020) with using MPS, will produce 2.86s/it at fastest.
+* In the case of Apple M1 (MacBook Pro '13 2020) with using CPU, will produce 5.36s/it at fastest.
 
 
 # System Requirement
@@ -102,10 +105,7 @@ In the end, it led iteration about 2x faster from original one.
 Feel free to ask me when you have a issue or pull request. :9
 
 # Known issues
-* Not all samplers works with using MPS. Currently Eular and DPM2 will work fine.
-* But if you add "--use-cpu all" in command line arguments, all samplers may work fine.
-* New samplers like "DPM++ 2M Karras" don't appear in WebUI.
-
+* It may require to install "torchsde". Please manually add "torchsde" to the requirements.txt in created directly.
 
 # Author and Credits
 
