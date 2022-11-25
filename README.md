@@ -3,9 +3,10 @@
 This script allows you to install and run [Automatic1111's Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) with using [venv](https://docs.python.org/3/library/venv.html) on your macOS.
 So, you no need to install [conda](https://docs.conda.io/en/latest/miniconda.html).
 
-# DEMO Pics
+# Pics
 
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
+<img width="1911" alt="Screenshot" src="https://user-images.githubusercontent.com/97383975/203933972-bc4c988d-90bd-4703-a132-426a271a0266.png">
+
 
 
 # Features
