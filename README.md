@@ -119,9 +119,9 @@ Feel free to ask me when you have a issue or pull request. :9
 # Author and Credits
 
 
-
+* [Automatic1111's Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+* A Original author of this script
 * [SpinningSamurai](https://github.com/SpinningSamurai)
-* A Original author of this script (I completely forgot your name sorry.)
 
 
 # License
