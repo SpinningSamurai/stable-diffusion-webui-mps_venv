@@ -101,7 +101,7 @@ So I decided to upload my own modified one because he/she allowed redistribution
 
 Here are the major changes from the original one.
 
-* Change Pytorch version from `1.13.0.dev20220922 (Nightly)` to `1.13.0 (stable)`
+* Changed `Pytorch` version from `1.13.0.dev20220922 (Nightly)` to `1.13.0 (stable)`
 * To reduce RAM usage, I've added `--medvram` instead of `opt-split-attention-v1` in command line arguments. 
 * Some optimizations and bugfixes.
 
