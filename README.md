@@ -114,6 +114,7 @@ Feel free to ask me when you have a issue or pull request. :9
 
 # Known issues
 * Some samplers don't work with using MPS. For example "Eular a".
+* Stable Diffusion 2.0 models will not work.
 
 # Author and Credits
 
