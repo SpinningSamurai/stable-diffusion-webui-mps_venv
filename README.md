@@ -63,7 +63,7 @@ cd stable-diffusion-webui-mps_venv
 ./webui.sh -i
 ```
 
-If you face some permissions error about webui.sh, try below.
+If you face some permissions error about `webui.sh`, try below.
 ```zsh
 # Give the file execute permissions
 chmod +x ./webui.sh
