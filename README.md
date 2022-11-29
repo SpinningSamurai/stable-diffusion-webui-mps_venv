@@ -36,6 +36,8 @@ So, you no need to install [conda](https://docs.conda.io/en/latest/miniconda.htm
 
 
 * Xcode command line tools
+* [Homebrew](https://brew.sh)
+* [pyenv](https://github.com/pyenv/pyenv#homebrew-in-macos) via Homebrew
 
 Other requirements (homebrew cmake protobuf rust python etc...) will be installed automatically while runnning the script.
 
