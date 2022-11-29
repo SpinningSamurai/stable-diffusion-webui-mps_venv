@@ -1,6 +1,6 @@
 
 # stable-diffusion-webui-mps_venv
-This script allows you to install and run [Automatic1111's Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) with using [venv](https://docs.python.org/3/library/venv.html) on your macOS.
+This script allows you to install and run [Automatic1111's Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) with using [venv](https://docs.python.org/3/library/venv.html) and [pyenv](https://github.com/pyenv/pyenv) on your macOS.
 So, you no need to install [conda](https://docs.conda.io/en/latest/miniconda.html).
 
 # Pics
