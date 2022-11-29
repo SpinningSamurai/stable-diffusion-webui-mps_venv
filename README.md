@@ -28,7 +28,7 @@ So, you no need to install [conda](https://docs.conda.io/en/latest/miniconda.htm
 # System Requirement
 
 
-* macOS 12.0 or later
+* macOS 12.3 or later
 * Apple Silicon Macs
 
 # Requirement
