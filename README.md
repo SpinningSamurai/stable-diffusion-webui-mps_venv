@@ -13,7 +13,6 @@ So, you no need to install [conda](https://docs.conda.io/en/latest/miniconda.htm
 
 * Installs and Runs Automatic1111's Stable Diffusion WebUI with using venv on your macOS 
 * MPS Support with Pytorch 1.13 stable
-* All samplers will work.
 
 
 
@@ -90,7 +89,7 @@ After that, put your favorite model (.ckpt file) in right directly.
 # Open source directory
 ./webui.sh -o
 ```
-If you want to start WebUI with command line arguments, rewrite or add your favorites to line 226 in webui.sh
+If you want to start WebUI with command line arguments, rewrite or add your favorites to line 226 in `webui.sh`
 
 
 # Note
@@ -102,8 +101,8 @@ So I decided to upload my own modified one because he/she allowed redistribution
 
 Here are the major changes from the original one.
 
-* Change Pytorch version from 1.13.0.dev20220922 (Nightly) to 1.13.0 (stable)
-* To reduce RAM usage, I've added "--medvram" instead of "opt-split-attention-v1" in command line arguments. 
+* Change Pytorch version from `1.13.0.dev20220922 (Nightly)` to `1.13.0 (stable)`
+* To reduce RAM usage, I've added `--medvram` instead of `opt-split-attention-v1` in command line arguments. 
 * Some optimizations and bugfixes.
 
 
