@@ -18,7 +18,7 @@ So, you no need to install [conda](https://docs.conda.io/en/latest/miniconda.htm
 
 # Tested hardware
 
-* MacBook Pro '13 2020
+* MacBook Pro '13 2020, Apple M1 16GB RAM
 
 # How's the speed?
 * In the case of Apple M1 (MacBook Pro '13 2020) with using MPS, will produce 2.86s/it at fastest.
