@@ -123,10 +123,15 @@ function check_repo() {
   fi;
 
   cd stable-diffusion-webui;
+  # git stash
   git pull --rebase;
 
   if [[ ! -d "./repositories/stable-diffusion" ]]; then;
     git clone https://github.com/CompVis/stable-diffusion.git repositories/stable-diffusion;
+  fi;
+  
+  if [[ ! -d "./repositories/stable-diffusion-stability-ai" ]]; then;
+    git clone https://github.com/Stability-AI/stablediffusion.git repositories/stable-diffusion-stability-ai;
   fi;
 
   if [[ ! -d "./repositories/taming-transformers" ]]; then;
@@ -175,6 +180,8 @@ function check_pydeps() {
   pip uninstall torch torchvision torchaudio -y;
   pip install torch torchvision torchaudio --no-deps;
   pip install gdown psutil;
+  pip install open_clip_torch;
+
 
   cd ..;
 
