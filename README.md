@@ -39,7 +39,7 @@ So, you no need to install [conda](https://docs.conda.io/en/latest/miniconda.htm
 * [Homebrew](https://brew.sh)
 * [pyenv](https://github.com/pyenv/pyenv#homebrew-in-macos) via Homebrew
 
-Other requirements (homebrew cmake protobuf rust python etc...) will be installed automatically while runnning the script.
+Other requirements (cmake protobuf rust python etc...) will be installed automatically while runnning the script.
 
 # Installation
 
@@ -47,6 +47,12 @@ Other requirements (homebrew cmake protobuf rust python etc...) will be installe
 ```zsh
 # Install Xcode command line tools.
 xcode-select --install
+
+# Install Homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Install pyenv
+brew install pyenv
 
 # Download this repo.
 git clone https://github.com/SpinningSamurai/stable-diffusion-webui-mps_venv
