@@ -114,7 +114,7 @@ In the end, it led iteration about 2x faster than original one.
 Feel free to ask me when you have a issue or pull request. :9
 
 # Known issues
-* It may require to install "torchsde". Please manually add "torchsde" to the requirements.txt in created directly. then reinstall requirements and rerun WebUI
+* Some samplers don't work with using MPS. For example "Eular a".
 
 # Author and Credits
 
