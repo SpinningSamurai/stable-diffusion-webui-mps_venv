@@ -116,12 +116,13 @@ Feel free to ask me when you have a issue or pull request. :9
 * Some samplers don't work with using MPS. For example "Eular a".
 * Stable Diffusion 2.0 models will not work.
 
-# Author and Credits
+# Credits
 
 
 * [Automatic1111's Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 * A Original author of this script
-* [SpinningSamurai](https://github.com/SpinningSamurai)
+
+
 
 
 # License
