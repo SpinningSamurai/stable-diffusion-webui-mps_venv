@@ -120,7 +120,7 @@ Feel free to ask me when you have a issue or pull request. :9
 
 
 * [Automatic1111's Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
-* A Original author of this script
+* A Original author of this script. Thank you.
 
 
 
