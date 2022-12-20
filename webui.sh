@@ -220,7 +220,10 @@ function act_start() {
 
   info "PYTORCH_ENABLE_MPS_FALLBACK set.";
   export PYTORCH_ENABLE_MPS_FALLBACK=1;
-
+  info "ACCELERATE set.";
+  export ACCELERATE="True";
+  info "SAFETENSORS_FAST_GPU set.";
+  export SAFETENSORS_FAST_GPU=1;
   cd stable-diffusion-webui;
 
   local ADDITIONAL_ARGS=("${(z)@}");
