@@ -20,7 +20,7 @@ So, you no need to install [conda](https://docs.conda.io/en/latest/miniconda.htm
 
 * MacBook Pro '13 2020, Apple M1 16GB RAM
 
-# How's the speed?
+# How's the iteration speed?
 * In the case of Apple M1 (MacBook Pro '13 2020) with using MPS, will produce 2.86s/it at fastest.
 * In the case of Apple M1 (MacBook Pro '13 2020) with using CPU, will produce 5.36s/it at fastest.
 
@@ -89,7 +89,7 @@ After that, put your favorite model (.ckpt file) in right directly.
 # Open source directory
 ./webui.sh -o
 ```
-If you want to start WebUI with command line arguments, rewrite or add your favorites to line 233 in `webui.sh`
+If you want to start WebUI with command line arguments, rewrite or add your favorites to line 236 in `webui.sh`
 
 
 # Note
