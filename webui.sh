@@ -224,7 +224,9 @@ function act_start() {
   export ACCELERATE="True";
   info "SAFETENSORS_FAST_GPU set.";
   export SAFETENSORS_FAST_GPU=1;
-  cd stable-diffusion-webui;
+  info "ACCELERATE_USE_MPS_DEVICE set";
+  export ACCELERATE_USE_MPS_DEVICE=true;
+
 
   local ADDITIONAL_ARGS=("${(z)@}");
 
