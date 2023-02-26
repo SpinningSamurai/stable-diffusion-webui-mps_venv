@@ -89,7 +89,7 @@ After that, put your favorite model (.ckpt file) in right directly.
 # Open source directory
 ./webui.sh -o
 ```
-If you want to start WebUI with command line arguments, rewrite or add your favorites to line 238 in `webui.sh`
+If you want to start WebUI with command line arguments, rewrite or add your favorites to line 241 in `webui.sh`
 
 
 # Note
